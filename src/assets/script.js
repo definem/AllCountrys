@@ -22,7 +22,7 @@ async function getCountries() {
 
 getCountries();
 
-// ------------------ data render ---------------------
+// ------------------ DATA RENDER ---------------------
 
 function renderCountries(countries) {
   if (countries.length) {
@@ -116,7 +116,7 @@ async function renderSearch(text) {
   }
 }
 
-// ------------------------- SORT  BY REGIONS --------------------------------
+// ------------------------- SORT BY REGIONS --------------------------------
 
 $("#region").addEventListener("change", (e) => {
   $("#wrapper").innerHTML = "";
