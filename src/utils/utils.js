@@ -24,7 +24,7 @@ function createElement(element, classList, content) {
   return newElement;
 }
 
-/// ------- T JSON ---------------------------
+/// ------- T0 JSON ---------------------------
 
 function TO_JSON(obj) {
   return JSON.stringify(obj);

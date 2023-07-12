@@ -3,13 +3,15 @@
 let baseURL = "https://restcountries.com/v2";
 let regions = [];
 
-// ----------------- data fetching ----------------
+// ----------------- FETCHING ALL DATAS ----------------
 
 async function getCountries() {
   try {
     const response = await fetch(`${baseURL}/all`);
     const result = await response.json();
     renderCountries(result);
+    console.log(result);
+
     filterRegion(result);
   } catch (err) {
     console.log(err.message);
