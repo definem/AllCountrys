@@ -61,7 +61,9 @@ function renderCountries(countries) {
                      </p>
                  </li>
 
-                   <a href=".country.html" target="_blank" data-fullname="${element?.name}" class="px-3 py-2 bg-cyan-600 rounded-xl text-white">
+                   <a href=".country.html" target="_blank" data-fullname="${
+                     element?.name
+                   }" class="px-3 py-2 bg-cyan-600 rounded-xl text-white">
                      Details
                    </a>
 
@@ -142,3 +144,11 @@ async function renderRegions(text) {
     alert(err.message);
   }
 }
+
+// ------------------------- COUNTRY NAME --------------------------------
+
+$("#wrapper").addEventListener("click", (e) => {
+  if (e.target.classList.contains("bg-cyan-600")) {
+    localStorage.setItem("fullanme", e.target.getAttribute("data-fullname"));
+  }
+});
