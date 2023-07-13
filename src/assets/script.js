@@ -60,6 +60,11 @@ function renderCountries(countries) {
                          }
                      </p>
                  </li>
+
+                   <a href=".country.html" target="_blank" data-fullname="${element?.name}" class="px-3 py-2 bg-cyan-600 rounded-xl text-white">
+                     Details
+                   </a>
+
              </ul>
 
          </div>  `
