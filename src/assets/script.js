@@ -90,7 +90,7 @@ function filterRegion(data) {
   }
 }
 
-// -------------------------- RENDER OPTIONS  --------------------------------------
+// -------------------------- RENDER OPTIONS  --------------------------
 
 function renderOptions(data) {
   if (data) {
@@ -101,7 +101,7 @@ function renderOptions(data) {
   }
 }
 
-// ------------------------- SEARCH BY NAME --------------------------------
+// ------------------------- SEARCH BY NAME -------------------------
 
 $("#search").addEventListener("keyup", (e) => {
   $("#wrapper").innerHTML = "";
@@ -123,7 +123,7 @@ async function renderSearch(text) {
   }
 }
 
-// ------------------------- SORT BY REGIONS --------------------------------
+// ------------------------- SORT BY REGIONS -------------------------
 
 $("#region").addEventListener("change", (e) => {
   $("#wrapper").innerHTML = "";
@@ -145,7 +145,7 @@ async function renderRegions(text) {
   }
 }
 
-// ------------------------- COUNTRY NAME --------------------------------
+// ------------------------- COUNTRY NAME -------------------------
 
 $("#wrapper").addEventListener("click", (e) => {
   if (e.target.classList.contains("bg-cyan-600")) {
