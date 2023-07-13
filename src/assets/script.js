@@ -67,7 +67,7 @@ function renderCountries(countries) {
 
              </ul>
 
-         </div>  `
+         </div> `
       );
 
       $("#wrapper").append(card);
@@ -75,7 +75,7 @@ function renderCountries(countries) {
   }
 }
 
-// -------------------------- UNIQUE REGION FILTE FUNCTION --------------------------------------
+// -------------------------- UNIQUE REGION FILTER FUNCTION --------------------------------------
 
 function filterRegion(data) {
   if (data) {
