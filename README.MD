@@ -1,4 +1,4 @@
-<p> <abbr title="CodeClash">ALL COUNTRIES</abbr> REST API </p> 
+## ALL COUNTRIES REST API.
 
 ### API DOCUMENTATION
 
