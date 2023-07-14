@@ -1,6 +1,5 @@
 ## ALL COUNTRIES REST API 
 
-
 ## API DOCUMENTATION
 
 #### BASE URL
@@ -38,4 +37,3 @@ baseURL/region/${region}
 npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch 
 
 ```
-
